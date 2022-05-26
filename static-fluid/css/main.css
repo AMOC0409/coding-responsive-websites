@@ -1,0 +1,74 @@
+/****** BASE STYLES ******/
+ body {
+	 	font-family: 'Montserrat', sans-serif;
+ 		color:gray;
+		margin:0px;
+	background:url(../symphony.png) repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	text-align:center;
+	
+/****** ABOUT ******/
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+h1{
+	color:tomato;
+}
+
+h2{
+	color:Salmon;
+}
+/****** CONTACT ******/
+#email a {
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+
+
+h1 #name{
+	margin-bottom:0px;
+	border:10px solid tomato;
+	padding:30px;
+	display:inline;
+}
+
+
+
+
+#wrapper{
+	margin-top:150px;
+}
+
+
+
+
+h2 #title{
+	margin-top: 40px;
+    padding: 30px;
+}
+.contact{
+	color:DarkSeaGreen;
+}
+/* -------------- Quote Styles ------------*/
+.inspirational-quote{
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+
+
+.line-break{
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
